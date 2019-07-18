@@ -1,0 +1,86 @@
+/*
+GRISOBSCURO #ACAAAE
+AZUL        #5AC7C6
+BROWNYELLOW #D49466
+MARRON      #795436
+GRISCLARO   #DCE1E7
+*/
+
+
+.main-body{
+    font-family: 'Open Sans', sans-serif;
+    background-image:url(1Vacaciones.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    /*background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-attachment: scroll; */
+}
+
+nav{
+    background-color: #DCE1E7;
+    /*
+    height: 50px; 
+    width: 95%;
+    margin: 10px;
+    */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    color:#795436;
+    text-decoration: none;
+    margin-left: 20px;
+    width: 50px;
+}
+
+.menu{
+    color:#795436;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.menu:hover{
+    font-weight: bold;
+    background-color:#ACAAAE;
+}
+
+.boton-search{
+    background-color: transparent;
+    line-height: 34px;
+    display: -webkit-inline-flex;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+footer{
+    background-color: #ACAAAE;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: white
+}
+
+
+@media(max-width: 600px){
+    #box-menu{
+        display: none;
+    }
+}
+
+@media(min-width: 600px){
+    .login{
+        display: none;
+    }
+}
