@@ -20,6 +20,11 @@ GRISCLARO   #DCE1E7
     /* background-attachment: scroll; */
 }
 
+header{
+    width: 100%;
+    position: fixed;
+}
+
 nav{
     background-color: #DCE1E7;
     /*
@@ -36,6 +41,7 @@ nav{
 
 #logo{
     color:#795436;
+    font-weight: bold;
     text-decoration: none;
     margin-left: 20px;
     width: 50px;
@@ -48,7 +54,6 @@ nav{
 }
 
 .menu:hover{
-    font-weight: bold;
     background-color:#ACAAAE;
 }
 
@@ -61,6 +66,10 @@ nav{
     right: 50%;
     top: 50%;
     text-align: center;
+    padding: 12px 0;
+    border: none;
+    border-radius: 22px;
+    height: 44%;
 }
 
 footer{
